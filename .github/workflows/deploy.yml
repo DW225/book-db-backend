@@ -19,4 +19,4 @@ jobs:
       - name: deploy functions
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: ./github/scripts/deploy.sh
+        run: ./.github/scripts/deploy.sh
